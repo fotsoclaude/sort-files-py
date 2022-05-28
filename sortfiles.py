@@ -1,9 +1,9 @@
 """
 Trier les fichiers contenus dans le dossier selon les associations suivantes :
 mp3, wav, flac : Musique
-avi, mp4, gif : Videos
-bmp, png, jpg : Images
-txt, pptx, csv, xls, odp, pages : Documents
+avi, mp4, gif, flv, wmv, mov, wav, m4a, m4v, f4v, f4a, m4b, m4r : Videos
+bmp, png, jpg, // jpeg, svg : Images
+txt, pptx, csv, xls, odp, pages, pdf, doc, odt, xls  : Documents
 autres : Divers
 """
 from pathlib import Path
@@ -11,16 +11,32 @@ from pathlib import Path
 
 EXTENSIONS_MAPPING = {".mp3": "Musique",
                       ".wav": "Musique",
+                      "flac": "Musique",
                       ".mp4": "Videos",
                       ".avi": "Videos",
+                      ".m4a": "Videos",
+                      ".m4v": "Videos",
+                      ".f4v": "Videos",
+                      ".f4a": "Videos",
+                      ".m4b": "Videos",
+                      ".m4r": "Videos",
+                      ".mov": "Videos",
+                      ".wmv": "Videos",
+                      ".flv": "Videos",
                       ".gif": "Videos",
                       ".bmp": "Images",
                       ".png": "Images",
                       ".jpg": "Images",
+                      ".jepg": "Images",
+                      ".svg": "Images",
                       ".txt": "Documents",
+                      ".pdf": "Documents",
+                      ".doc": "Documents",
+                      ".odt": "Documents",
                       ".pptx": "Documents",
-                      ".csv": "Documents",
                       ".xls": "Documents",
+                      ".docx": "Documents",
+                      ".csv": "Documents",
                       ".odp": "Documents",
                       ".pages": "Documents"}
 
