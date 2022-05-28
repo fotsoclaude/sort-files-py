@@ -2,7 +2,7 @@
 Trier les fichiers contenus dans le dossier selon les associations suivantes :
 mp3, wav, flac : Musique
 avi, mp4, gif, flv, wmv, mov, wav, m4a, m4v, f4v, f4a, m4b, m4r : Videos
-bmp, png, jpg, // jpeg, svg : Images
+bmp, png, jpg, jpeg, svg : Images
 txt, pptx, csv, xls, odp, pages, pdf, doc, odt, xls  : Documents
 autres : Divers
 """
