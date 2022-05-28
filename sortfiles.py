@@ -11,7 +11,7 @@ from pathlib import Path
 
 EXTENSIONS_MAPPING = {".mp3": "Musique",
                       ".wav": "Musique",
-                      "flac": "Musique",
+                      ".flac": "Musique",
                       ".mp4": "Videos",
                       ".avi": "Videos",
                       ".m4a": "Videos",
